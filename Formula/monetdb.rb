@@ -16,8 +16,8 @@ end
 class Monetdb < Formula
   desc "Column-store database"
   homepage "https://www.monetdb.org/"
-  url "https://www.monetdb.org/downloads/sources/Dec2016-SP5/MonetDB-11.25.23.tar.xz"
-  sha256 "8f3a39cfcd11dc81746e062795a8e46eb9b1ca9fdf03a3dbd5290826f62d1c07"
+  url "https://www.monetdb.org/downloads/sources/Jul2017-SP2/MonetDB-11.27.9.tar.xz"
+  sha256 "21b60aacb55894334d167d6c82ea43320b0cc116414d451d64c54bba8b32d1ed"
 
   bottle do
     sha256 "12d3f6ae822f8ffb1fcd7e0ab96d686b11443b7ebb45479dceef5f544fd80e61" => :sierra
