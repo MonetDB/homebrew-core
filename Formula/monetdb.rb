@@ -17,11 +17,11 @@ class Monetdb < Formula
   desc "Column-store database"
   homepage "https://www.monetdb.org/"
 <<<<<<< b75971372b37cb0d96337adc2e7ba5f5e8becc15
-  url "https://www.monetdb.org/downloads/sources/Jul2017/MonetDB-11.27.1.tar.xz"
-  sha256 "93817a5b433c513c61ba30b9b3ccd95d0275556cbd23d3cffc455f016cf22b3a"
+  url "https://www.monetdb.org/downloads/sources/Jul2017-SP1/MonetDB-11.27.5.tar.xz"
+  sha256 "871ce08f3c4d9113f50a43fb396892b9c52ae891e8bf16431c80416cac0f6bef"
 =======
-  url "https://www.monetdb.org/downloads/sources/Jul2017/MonetDB-11.27.1.tar.xz"
-  sha256 "93817a5b433c513c61ba30b9b3ccd95d0275556cbd23d3cffc455f016cf22b3a"
+  url "https://www.monetdb.org/downloads/sources/Jul2017-SP1/MonetDB-11.27.5.tar.xz"
+  sha256 "871ce08f3c4d9113f50a43fb396892b9c52ae891e8bf16431c80416cac0f6bef"
 >>>>>>> monetdb 11.25.21
 
   bottle do
