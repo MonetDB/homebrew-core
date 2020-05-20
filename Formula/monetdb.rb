@@ -42,6 +42,8 @@ class Monetdb < Formula
   end
 
   test do
-    assert_match "Usage", shell_output("#{bin}/mclient --help 2>&1")
+    # assert_match "Usage", shell_output("#{bin}/mclient --help 2>&1")
+    system("#{bin}/monetdbd create #{testpath}/dbfarm")
+    assert_predicate testpath/"dbfarm", :exist?
   end
 end
